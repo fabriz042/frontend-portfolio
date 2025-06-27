@@ -1,0 +1,39 @@
+# =========================
+# Node.js y Next.js
+# =========================
+node_modules/
+.next/
+out/
+public/productos/
+build/
+.vercel
+
+# Archivos de configuración y debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========================
+# Archivos de Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Configuración del sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Configuración de IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+next-env.d.ts
